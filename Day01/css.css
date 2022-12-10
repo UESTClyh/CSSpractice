@@ -1,0 +1,35 @@
+@keyframes zoomToBig{
+    0% {
+        width: 7vw;
+    }
+
+    100% {
+        width: 55vw;
+    }
+}
+@keyframes zoomToSmall{
+    0% {
+        width: 55vw;
+    }
+
+    100% {
+        width: 7vw;
+    }
+}
+.container {
+    display: flex;
+    width: 90vw;
+    background-color: cyan;
+    margin: 5vh auto;
+}
+
+.imgs {
+    width: 7vw;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 10px;
+}
+.change{
+    animation: zoomToBig 0.7s ease-in forwards;
+}
