@@ -19,7 +19,7 @@
 .container {
     display: flex;
     width: 90vw;
-    background-color: cyan;
+/*     background-color: cyan; */
     margin: 5vh auto;
 }
 
