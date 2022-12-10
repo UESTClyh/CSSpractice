@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    width: 90vw;
+    /* background-color: cyan; */
+    margin: 5vh auto;
+}
+
+.imgs {
+    width: 7vw;
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 50px;
+    margin: 10px;
+    transition: all 700ms ease-in;
+    flex: 0.5;
+
+    background-size: cover;/* 等比例 */
+
+
+    /* 观感丝滑的关键！！！ */
+    background-position: center;/*保持center*/
+
+
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.imgs h3 {
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+color: #fff;
+}
+
+.change {
+    /* animation: zoomToBig 0.7s ease-in forwards; */
+    flex: 5;
+}
+
+.change h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
